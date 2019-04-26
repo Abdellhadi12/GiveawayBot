@@ -229,7 +229,7 @@ public class Bot extends ListenerAdapter
         bot.setShardManager(new DefaultShardManagerBuilder()
                 .setShardsTotal(shardTotal)
                 .setShards(shardSetId*shardSetSize, (shardSetId+1)*shardSetSize-1)
-                .setToken(config.getString("bot-token"))
+                .setToken(config.getString("NTY1OTY3ODUxNDIxMzAyNzk4.XMNS0A._jr12OEYpzp4SNR8qhj2jJu8gAM")
                 .setAudioEnabled(false)
                 .setGame(Game.playing("loading..."))
                 .setStatus(OnlineStatus.DO_NOT_DISTURB)
